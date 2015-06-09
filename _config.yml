@@ -1,0 +1,8 @@
+# Site settings
+title: East Midlands Freelancers
+email: hello@eastmidlandsfreelancers.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://eastmidlandsfreelancers.com"
+twitter_username: katherinecory
+github_username: katherinecory
+safe: true
