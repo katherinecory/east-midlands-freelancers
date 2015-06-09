@@ -6,13 +6,13 @@
 
 ### Thanks
 
-This project was originally created by [Mariana Mota Morris](http://www.marianamota.com/) and [James Morris](http://jimmymorris.co.uk/) who were kind enough to let me fork it from [marianamota/oxfordfreelancers](https://github.com/marianamota/oxfordfreelancers). The original website, [Oxford Freelancers](http://oxfreelancers.com/), powers a list of freelancers in Oxford and there is also a community for (Birmingham)[http://freelancers.birmingham.io/].
+This project was originally created by [Mariana Mota Morris](http://www.marianamota.com/) and [James Morris](http://jimmymorris.co.uk/) who were kind enough to let me fork it from [marianamota/oxfordfreelancers](https://github.com/marianamota/oxfordfreelancers). The original website, [Oxford Freelancers](http://oxfreelancers.com/), powers a list of freelancers in Oxford and there is also a community for [Birmingham](http://freelancers.birmingham.io/), which has inspired this Jekyll fork.
 
 ---
 
 ### Want to make changes?
 
-To find out more about this project, visit the [discussion thread on Birmingham.IO](https://talk.birmingham.io/t/birmingham-freelancers-project-idea/287).
+The project is open to forking and pull requests, visit the [official repository](katherinecory/eastmidlandsfreelancers) for more information.
 
 This fork uses [Jeykll](http://jekyllrb.com/) to share the layout between the pages. If you have [Ruby](https://www.ruby-lang.org/) installed, you can get your own version running locally by running these commands.
 
