@@ -1,8 +1,9 @@
-# Site settings
 title: East Midlands Freelancers
-email: hello@eastmidlandsfreelancers.com
+tagline: "A directory of digital freelancers in Derbyshire, Nottinghamshire, Lincolnshire, Leicestershire and the East Midlands"
+author:
+  email: hello@eastmidlandsfreelancers.com
+  twitter: katherinecory
+  github: katherinecory
 baseurl: "/eastmidlandsfreelancers"
 url: "http://eastmidlandsfreelancers.com"
-twitter_username: katherinecory
-github_username: katherinecory
 safe: true
