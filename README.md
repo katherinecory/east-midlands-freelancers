@@ -19,7 +19,7 @@ This fork uses [Jeykll](http://jekyllrb.com/) to share the layout between the pa
 ```bash
 git clone git@github.com:katherinecory/eastmidlandsfreelancers.git
 cd eastmidlandsfreelancers
-jekyll serve
+jekyll serve --baseurl ''
 ```
 
 Providing that worked, you should now be able to preview your changes here: [http://localhost:4000/](http://localhost:4000/)
