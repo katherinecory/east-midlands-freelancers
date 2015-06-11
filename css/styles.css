@@ -239,6 +239,8 @@ th {
 
 .filter-table {
   font-size: 11px;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
 }
 
 .filter-table .quick {
@@ -264,11 +266,6 @@ th {
   padding: 3px;
   font-weight: normal;
   font-size: 11px;
-}
-
-.filter-table {
-  padding: 11px 0;
-  border-bottom: 1px solid #ddd;
 }
 
 table.table-striped tbody tr td.alt {
