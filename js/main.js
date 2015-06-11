@@ -5,7 +5,7 @@ $(function (){
     url: mySpreadsheet,
     chunkSize: 100,
     sql: 'select B,C,E,F,D,G,H,I order by B asc, C asc',
-    labels: ['Name', 'Availability', 'Working', 'Location', 'Skills', 'Website URL', 'Twitter', 'Email'],
+    labels: ['Name', 'Availability', 'Working', 'Location', 'Skills', '<i class="fa fa-external-link"></i>', '<i class="fa fa-twitter"></i>', '<i class="fa fa-envelope"></i>'],
     userCallback: function() {
       links();
       twitter();
@@ -57,8 +57,11 @@ $(function (){
   function links() {
     var websiteEl = $('#freelancerslist td:nth-child(6)');
     websiteEl.each(function(index) {
-      var link = $(this).text();
-      $(this).wrapInner('<a target="_blank" href="'+ link +'" />');
+      if ($(this).text().length) {
+        var link = $(this).text();
+        var text = $(this).text();
+        $(this).html('<a href="'+ link +'" target="_blank" title="'+ text + '"><i class="fa fa-external-link"></i></a>');
+      }
     });
   };
 
@@ -66,11 +69,12 @@ $(function (){
   function twitter() {
     var twitterEl = $('#freelancerslist td:nth-child(7)');
     twitterEl.each(function(index) {
-      var link = "http://twitter.com/"; //twitter url
-      var text = $(this).text();
-      text = text.replace("@", "");
-      link += text;
-      $(this).wrapInner('<a target="_blank" href="'+ link +'" />');
+      if ($(this).text().length) {
+        var link = "http://twitter.com/"; //twitter url
+            link += $(this).text().replace("@", "");
+        var text = $(this).text();
+        $(this).html('<a href="'+ link +'" target="_blank" title="'+ text + '"><i class="fa fa-twitter"></i></a>');
+      }
     });
   }
 
@@ -78,8 +82,11 @@ $(function (){
   function emails() {
     var emailEl = $('#freelancerslist td:nth-child(8)');
     emailEl.each(function(index) {
-      var link = $(this).text();
-      $(this).wrapInner('<a href="mailto:'+ link +'" />');
+      if ($(this).text().length) {
+        var link = $(this).text();
+        var text = $(this).text();
+        $(this).html('<a href="mailto:'+ link +'" title="'+ text + '"><i class="fa fa-envelope"></i></a>');
+      }
     });
   };
 });
