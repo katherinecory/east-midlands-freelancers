@@ -4,6 +4,7 @@ body {
   background: url(../images/lines.svg) top center no-repeat;
   background-size: contain;
   color: #444;
+  margin-bottom: 50px;
 }
 
 img {
