@@ -244,11 +244,10 @@ th {
 }
 
 .filter-table .quick {
-  margin-left: 1.4em;
   display: inline-block;
   font-size: 11px;
   padding: 4px 6px;
-  margin-bottom: 6px;
+  margin: 3px 10px 3px 0;
   border: 1px solid #c3b3d8;
   border-radius: 3px;
   text-decoration: none;
@@ -266,6 +265,7 @@ th {
   padding: 3px;
   font-weight: normal;
   font-size: 11px;
+  margin-right: 10px;
 }
 
 table.table-striped tbody tr td.alt {
