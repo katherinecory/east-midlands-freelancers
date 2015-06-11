@@ -11,7 +11,7 @@ $(function (){
       twitter();
       websiteLink();
       tableFilterApplication();
-      email();
+      emails();
     }
   });
 
@@ -75,11 +75,11 @@ $(function (){
   }
 
   //add email links
-  function links() {
+  function emails() {
     var emailEl = $('#freelancerslist td:nth-child(8)');
     emailEl.each(function(index) {
       var link = $(this).text();
-      $(this).wrapInner('<a target="_blank" href="mailto:'+ link +'" />');
+      $(this).wrapInner('<a href="mailto:'+ link +'" />');
     });
   };
 });
