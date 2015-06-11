@@ -114,7 +114,7 @@ th {
 
 @media (min-width: 800px) {
   .navbar .container {
-    margin-right: 0;
+    margin-right: auto;
   }
 }
 
@@ -134,12 +134,14 @@ th {
   width: 100%;
   width: 100%;
   float: right;
+  display: none;
 }
 
 @media (min-width: 440px) {
   .navbar-brand {
     width: auto;
     float: left;
+    display: block;
   }
 }
 
@@ -149,13 +151,13 @@ th {
 
 .navbar-toggle {
   background: #8f71b2;
-  margin: 10px 0 2px 0;
+  margin: 10px 0 10px 0;
   right: 15px;
 }
 
 @media (min-width: 440px) {
   .navbar-toggle {
-    margin-top: 3px;
+    margin: 3px 0 2px 0;
   }
 }
 
