@@ -1,197 +1,188 @@
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	background: url('../images/shattered-island.gif') 0 0 repeat;
-
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background: url(../images/lines.svg) top center no-repeat;
+  background-size: contain;
+  color: #444;
 }
 
 p {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 a {
-	color: #1179be;	
+  color: #663399;
+  transition: all 300ms;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8f71b2;
+  text-decoration: none;
 }
 
 hr {
-	border-color: #666;
+  border-color: #a38bc1;
 }
 
 header {
-	color: #fff;
+  color: #663399;
 }
 
 .formcontainer {
-	background-color: #fff;
-}
-
-.navbar-brand {
-	text-transform: uppercase;
-	font-size: 12px;
-	color: #f4c532 !important;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;			
+  background: #fff;
 }
 
 .accent {
-	font-weight: 600;
-}
-
-.container {
+  font-weight: 700;
 }
 
 h1 {
-	margin: 15px 0 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 50px;
-	text-transform: uppercase;
-	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
-	text-align: center;
-	font-weight: 300;	
+  margin: 15px 0 0;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
 }
 
 h2 {
-	font-size: 16px;
-	text-align: center;
-	line-height: 1.5em;
-	font-weight: normal;
-	margin: 10px 0 20px 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+h2 a {
+  color: #8f71b2;
+}
+
+h2 a:hover {
+  color: #663399;
 }
 
 h3 {
-	margin: 20px 0 10px 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
+  font-size: 20px;
+  color: #663399;
+  font-weight: 700;
 }
 
 .table-wrapper {
-	background-color: #fff;
+  background: #fff;
 }
 
 .listing {
-	margin-top: 15px;
-}
-
-.listing .col-md-10{
-	background-color: #fff;
-	padding-top: 10px;
-	margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .about {
-	background-color: #fff;
-	padding-top: 15px;
-	padding-bottom: 15px;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-thead {
-
+.about p:last-child {
+  margin-bottom: 0;
 }
 
 td, th {
-	font-size: 13px !important;
-}
-
-td.website-link a {
-	color: #1179be;
-	
-}
-
-td.website-link a:visited {
-	color: #5F7A8C;
-}
-
-
-table tr td:first-child {
+  font-size: 13px !important;
 }
 
 th {
-	text-transform: uppercase;
-	font-size: 12px;
+  font-size: 12px;
 }
 
-.advertise {
-	background-color: #f1f1f1;
-	width: 100%;
-	height: 100px;
-	color: #ccc;
-	text-align: center;
-	padding: 30px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+.navbar {
+  min-height: 40px;
 }
 
-.advertise a{
-	color: #ccc;
-}
-
-.btn-primary {
-	font-size: 13px;
-	padding: 10px;
-	background-color: transparent;
-	border-color: #fff;
-	color: 	#f4c532;	
+.navbar-brand {
+  font-size: 12px;
+  color: #fff !important;
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  padding: 10px 15px;
+  height: 40px;
 }
 
 .nav .fa {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .navbar-toggle {
-	background-color: #f4c532;
+  background: #8f71b2;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: #663399;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
+  background: #fff;
 }
 
-.btn-primary:hover {
-	background-color: #f4c532;	
-	color: #333;
-	border-color:#f4c532 ;
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  transition: all 300ms;
+  padding: 10px 15px;
 }
 
-.ss-form-entry input {
-	font-size: 24px;
+.navbar-default .navbar-nav > li > a.nav-icon {
+  padding: 10px 0 10px 15px;
 }
 
-.ss-form-title {
-	font-size: 12px !important;
+.navbar-default .navbar-nav > li > a:hover {
+  color: #c3b3d8;
 }
 
-.ss-form-entry input {
-	width: 10px;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #a38bc1;
+  color: #fff;
 }
 
 .navbar-default .navbar-collapse, .navbar-default {
-	background-color: #fff;
-/*	background-color: rgba(0,0,0,0.3);*/
-	border: 0;
+  background-color: #663399;
+  border: 0;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+.filter-table {
+  font-size: 11px;
 }
 
-/* Table filter styles
--------------------------------------------------- */
-.filter-table .quick { margin-left: 1.4em; display:inline-block; font-size: 0.8em; padding: 3px 5px; border: 1px solid #ddd; border-radius: 3px; text-decoration: none; }
-.filter-table .quick:hover { background-color: #ddd; }
-.filter-table input { border: 1px solid #ddd; border-radius: 3px; padding: 3px; }
-.filter-table { padding: 11px 0; border-bottom: 1px solid #ddd; }
-table.table-striped tbody tr td.alt { background-color: #f3f4c3; }
+.filter-table .quick {
+  margin-left: 1.4em;
+  display: inline-block;
+  font-size: 11px;
+  padding: 4px 6px;
+  margin-bottom: 6px;
+  border: 1px solid #c3b3d8;
+  border-radius: 3px;
+  text-decoration: none;
+ }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.filter-table .quick:hover {
+  background: #a38bc1;
+  border-color: #a38bc1;
+  color: #fff;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+
+.filter-table input {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 3px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.filter-table {
+  padding: 11px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+table.table-striped tbody tr td.alt {
+  background: #d5cbe4;
 }
