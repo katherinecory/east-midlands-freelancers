@@ -25,20 +25,19 @@ $(function (){
     $('#freelancerslist').filterTable({
       quickList: [
         'Animation',
+        'Art Direction',
         'Branding',
         'Copywriting',
+        'Digital Design',
         'Drupal',
         'Front-end',
         'Graphic design',
         'Illustration',
         'Javascript',
         'Mobile Apps',
-        '.NET',
-        'Node',
         'Photography',
         'PHP',
-        'Python',
-        'Ruby',
+        'UI Design',
         'UX',
         'Videography',
         'Wordpress'
