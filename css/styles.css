@@ -276,6 +276,16 @@ table.table-striped tbody tr td.alt {
   background: #d5cbe4;
 }
 
+.btn-success {
+  background: #663399;
+  border-color: #663399;
+}
+
+.btn-success:hover, .btn-success:focus {
+  background: #a38bc1;
+  border-color: #a38bc1;
+}
+
 footer {
   margin-top: 50px;
   text-align: right;
