@@ -94,10 +94,6 @@ h3 {
   padding-bottom: 15px;
 }
 
-.about p:last-child {
-  margin-bottom: 0;
-}
-
 td, th {
   font-size: 13px !important;
 }
@@ -274,6 +270,11 @@ th {
 
 table.table-striped tbody tr td.alt {
   background: #d5cbe4;
+}
+
+.submit-button {
+  text-align: center;
+  margin: 20px 0 10px 0;
 }
 
 .btn-success {
