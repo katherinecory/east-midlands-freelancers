@@ -12,13 +12,13 @@ This project was originally created by [Mariana Mota Morris](http://www.marianam
 
 ### Want to make changes?
 
-The project is open to forking and pull requests, visit the [official repository](https://github.com/katherinecory/eastmidlandsfreelancers) for more information.
+The project is open to forking and pull requests, visit the [official repository](https://github.com/katherinecory/east-midlands-freelancers) for more information.
 
 This fork uses [Jeykll](http://jekyllrb.com/) to share the layout between the pages. If you have [Ruby](https://www.ruby-lang.org/) installed, you can get your own version running locally by running these commands.
 
 ```bash
-git clone git@github.com:katherinecory/eastmidlandsfreelancers.git
-cd eastmidlandsfreelancers
+git clone git@github.com:katherinecory/east-midlands-freelancers.git
+cd east-midlands-freelancers
 jekyll serve
 ```
 
