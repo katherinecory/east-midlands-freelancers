@@ -16,10 +16,4 @@ The project is open to forking and pull requests, visit the [official repository
 
 This fork uses [Jeykll](http://jekyllrb.com/) to share the layout between the pages. If you have [Ruby](https://www.ruby-lang.org/) installed, you can get your own version running locally by running these commands.
 
-```bash
-git clone git@github.com:katherinecory/east-midlands-freelancers.git
-cd east-midlands-freelancers
-jekyll serve
-```
-
 Providing that worked, you should now be able to preview your changes here: [http://localhost:4000/](http://localhost:4000/)
